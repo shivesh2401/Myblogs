@@ -1,0 +1,33 @@
+<style>
+            .center
+            {   
+                font-family: serif;
+                text-align: center;
+            }
+            
+            h4.demo
+            {   
+                font-family: serif;
+                text-align: center;
+            }
+            
+            h1.example
+            {  
+                background-color: darkgray;
+                font-family: serif;
+                text-align: center;
+            }
+            
+            .color
+            {
+                background-color: aliceblue;
+            }
+            
+            .img
+            {   
+                height: 300px;
+                width: 500px;
+                
+            }
+        
+        </style>

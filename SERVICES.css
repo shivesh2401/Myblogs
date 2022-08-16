@@ -1,0 +1,51 @@
+<style>
+            .myform{
+                padding: 2px;
+                border: 1px grey dotted;
+                margin: 2px;
+                background: #ccc;
+            }
+            
+            .center
+            {   
+                font-family: serif;
+                text-align: center;
+            }
+            
+            h4.demo
+            {   
+                font-family: serif;
+                text-align: center;
+            }
+            
+            h1.example
+            {  
+                background-color: darkgray;
+                font-family: serif;
+                text-align: center;
+            }
+            
+            .color
+            {
+                background-color: aliceblue;
+            }
+            
+            .imageaboutpage
+            {
+                width: 60%;
+            }
+            
+            .first
+            {   
+                
+                font-family: serif;
+            }
+            
+            .second
+            {
+               text-align: left;
+               font-family: serif;
+            }
+            
+        </style>
+        
