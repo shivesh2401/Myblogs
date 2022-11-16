@@ -9,14 +9,9 @@
         </title>
         
         <link REL = "STYLESHEET" TYPE = "text/css" HREF = "CONTACT.css">
-	    
-	    <script type = "text/javascript"  src = "CONTACT.js"> </script>
-	    
         <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   
-  
-   
     </head>
     
     <body>
@@ -105,7 +100,7 @@
                <div class = "form-group">
                
                <label for = "comment">Contact No:</label>
-               <input type = "text" class = "form-control" id = "name" placeholder = "Your number">
+               <input type = "number" class = "form-control" id = "name" placeholder = "Your number">
                </div>
                
                <div class = "form-group">
@@ -120,6 +115,20 @@
            
            </div>
        </div> 
+       
+       <script type = "text/javaScript">
+      
+        function openForm() 
+           {
+           document.getElementById("popupForm").style.display = "block";
+           }
+
+        function closeForm() 
+           {
+            document.getElementById("popupForm").style.display = "none";
+           }
+      
+        </script>
         
         <p style = "text-align: center">Thank you for reaching us.....</br>
                        Always there for you!!</p>
@@ -131,8 +140,7 @@
        <footer class="page-footer font-small blue" style = "background-color: darkgray" >
 
   
-       <div class="footer-copyright text-center py-3">Name: Kumar Parth </br> 
-           Reg: 2060496 </br> Class: 5BTCS A
+       <div class="footer-copyright text-center py-3">Copyright 2022
        </div>
 
       </footer>
@@ -143,7 +151,7 @@
     </div>     <!--End #Container-->
     
 </body>
-</html>       
+</html>      
            
            
            
