@@ -1,2 +1,2 @@
 # Myblogs
-4 webpages using HTML , CSS, Javascript and Bootstrap
+A blogs website using HTML , CSS, Javascript, Bootstrap and php
