@@ -82,31 +82,31 @@
      
       <div class="formPopup" id="popupForm">
        
-        <form class="formContainer">
+        <form class="formContainer" action = "contact.php" method = "POST">
          
           <h2>Your details</h2>
               
             <div class = "form-group">
                <label for = "name">Your Name</label>
-               <input type = "text" class = "form-control" id = "name" placeholder = "Your Name">
+               <input type = "text" class = "form-control" name = "name" placeholder = "Your Name">
                </div>
                
                <div class = "form-group">
                
-               <label for = "email">Your Email</label>
-               <input type = "text" class = "form-control" id = "name" placeholder = "Your Email">
+               <label for = "name">Your Email</label>
+               <input type = "text" class = "form-control" name = "email" placeholder = "Your Email">
                </div>
                
                <div class = "form-group">
                
-               <label for = "comment">Contact No:</label>
-               <input type = "number" class = "form-control" id = "name" placeholder = "Your number">
+               <label for = "name">Contact No:</label>
+               <input type = "text" class = "form-control" name = "number" placeholder = "Your Number">
                </div>
                
                <div class = "form-group">
                
-               <label for = "comment">Query/Comment</label>
-               <input type = "text" class = "form-control" id = "name" placeholder = "Your comment">
+               <label for = "name">Query/Comment</label>
+               <input type = "text" class = "form-control" name = "comment" placeholder = "Your Comment">
                </div>
                
                <button type = "submit" class = "btn btn-primary">Submit</button>  
@@ -151,7 +151,7 @@
     </div>     <!--End #Container-->
     
 </body>
-</html>      
+</html>     
            
            
            
